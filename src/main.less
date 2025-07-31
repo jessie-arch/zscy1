@@ -1,0 +1,20 @@
+
+@rootrem:100px;
+html {
+  font-size:100px ;
+}
+@media (max-width: 1023px) {
+  @media (max-width: 512px) {
+    html { font-size: 50px;
+    @rootrem:50px;
+    }
+  }
+  @media (max-width: 375px) {
+    html { font-size: 36.6px;
+    @rootrem:36.6px; }
+  }
+  @media (max-width: 320px) {
+    html { font-size: 31.25px; 
+    @rootrem:31.25px;}
+  }
+}
