@@ -1,0 +1,53 @@
+.addweekbar{
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    height: 40%;
+    background-color: #FFFFFF;
+     display: flex;
+       transition: transform 0.2s ease-out;
+      transform: translateY(100%);
+   
+ box-shadow:0 -4px 12px 0 rgba(0, 0, 0, 0.1) ;
+     flex-direction: column;
+}
+.addweekbar.show{
+    transform: translateY(0);
+}
+.addweekbtn{
+    height: 50%;
+    padding: 0;
+     margin-top: 5%;
+    margin: 0;
+    flex-wrap: wrap;
+    display: flex;
+
+}
+.addweekbtn li{
+    margin-left: 0.1rem;
+    margin-top: 0.1rem;
+ background-color: #EEF5FD;
+ color:#132C55;
+   height: 15%;
+    width: 23%;
+     display: flex;
+     border-radius: 0.3rem;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    font-size:0.25rem;
+}
+.addweektext{
+    color: #EEF5FD;
+    display: flex;
+    border-radius: 0.5rem;
+     justify-content: center;
+    align-items: center;
+    position: relative;
+    top:15%;
+    left:35%;
+    font-size:0.5rem;
+   width: 30%;
+   height: 15%;
+   background:-webkit-linear-gradient(right,#2F29D5,#5958F4) ;
+}
